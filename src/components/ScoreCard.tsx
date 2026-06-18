@@ -1,0 +1,3 @@
+export function ScoreCard({ score, label }: { score: number; label: string }) {
+  return <article className="score-card"><div className="score-ring" style={{ '--score': `${score * 3.6}deg` } as React.CSSProperties}><div><strong>{score}</strong><span>/100</span></div></div><div><span className="eyebrow">Compatibility score</span><h2>{label}</h2><p>{score >= 90 ? 'Your selected ingredients play beautifully together.' : score >= 75 ? 'A strong lineup with a little thoughtful timing.' : score >= 50 ? 'Some active ingredients are better separated.' : 'This lineup needs a gentler game plan.'}</p></div></article>
+}

@@ -1,0 +1,9 @@
+[
+  { "categoryA": "retinoid", "categoryB": "aha", "severity": "caution", "reason": "Using retinoids with AHAs in the same routine may increase dryness and irritation." },
+  { "categoryA": "retinoid", "categoryB": "bha", "severity": "caution", "reason": "Layering retinoids with BHAs may increase irritation for some users." },
+  { "categoryA": "retinoid", "categoryB": "benzoyl peroxide", "severity": "avoid", "reason": "Benzoyl peroxide may reduce some retinoids’ effectiveness and increase irritation. Use at different times unless directed otherwise." },
+  { "categoryA": "aha", "categoryB": "bha", "severity": "caution", "reason": "Combining multiple exfoliating acids can over-exfoliate and compromise the skin barrier." },
+  { "categoryA": "vitamin c", "categoryB": "spf", "severity": "compatible", "reason": "Vitamin C and sunscreen are commonly paired for daytime antioxidant and UV support." },
+  { "categoryA": "retinoid", "categoryB": "barrier support", "severity": "compatible", "reason": "Barrier-supporting ingredients can help buffer dryness commonly associated with retinoids." },
+  { "categoryA": "aha", "categoryB": "hydrator", "severity": "compatible", "reason": "Hydrators can complement exfoliating acids by supporting skin comfort." }
+]
